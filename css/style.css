@@ -293,6 +293,14 @@ body {
 
 .main-comment-text {
     order: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-comment-text-img {
+    width: 40%;
 }
 
 .main-comment-img_block {
