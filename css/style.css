@@ -317,14 +317,14 @@ body {
         line-height: 40px;
     }
 
-    .main-row {
-        height: 60vh;
+    .main-calculator {
+        width: 35%;
+        height: auto;
     }
 
-    .main-calculator {
-        width: auto;
-        padding: 2% 2% 1%;
-        height: max-content;
+    .main-comment-text-img {
+        width: 35%;
+        margin-top: 5%;
     }
 }
 
@@ -354,7 +354,7 @@ body {
 
     .main-why_us-main_block-suits-block-title,
     .main-works-main_block-university-text-title,
-    .main-text-description-comment{
+    .main-text-description-comment {
         font-size: 4.5vw;
         line-height: 4.5vw;
     }
@@ -403,7 +403,7 @@ body {
 
     .main-works-main_block-university-img {
         width: 100%;
-        height: 20vh;
+        height: 30vh;
         order: unset !important;
         border-radius: unset !important;
     }
@@ -415,5 +415,9 @@ body {
     .main-comment-img_block {
         margin-top: unset;
         margin-bottom: 10%;
+    }
+
+    .main-comment-text-img {
+        margin-top: 5%;
     }
 }
